@@ -1,3 +1,22 @@
+# React Youtube Search and video display
+
+```
+> git clone 
+> cd into file
+> npm install
+> npm start
+```
+
+## Links
+
+> [npm youtube-api-search](https://www.npmjs.com/package/youtube-api-search)
+
+> [Youtube api](https://developers.google.com/youtube/v3/docs/search/list)
+
+Code example of how to use the google youtube api with React and using a simple npm module to easily implement this into your projects. 
+
+<hr>  
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

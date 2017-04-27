@@ -13,14 +13,14 @@ class searchBarComponent extends Component {
   render() {
       
     return (
-      <div className="form-group">
+      <div className="form-group">        
         <div className="row">
           <div className="col-xs-10">
             <input
               className="form-control"
               onChange={event => this.onInputChange(event.target.value)}
               value={this.state.term}
-              placeholder= "Search ....  "
+              placeholder= "YouTube Search ....  "
              />
           </div>
           {/*<div className="col-xs-2">
