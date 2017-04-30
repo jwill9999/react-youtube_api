@@ -3,8 +3,11 @@
 }
 
 .container {
-  padding-top:10em;
+  padding-top:5em;
  
+}
+.well {
+  border-radius: 10px;
 }
 
 .App-logo {

@@ -34,6 +34,11 @@ class App extends Component {
     const videoSearch = _.debounce((searchTerm) => {this.videoSearch(searchTerm)}, 500)
     return (
       <div className="App container">
+        <div className="row">
+          <div className="col-sm-12 well">
+            <h1>Youtube Search</h1>
+          </div>
+        </div>
         <div className="row margin">
           <div className="col-xs-12 ">
             <Search onVideoSearch={videoSearch}/>
